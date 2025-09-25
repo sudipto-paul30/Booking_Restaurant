@@ -6,7 +6,7 @@ const { Parser } = require("json2csv");
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:3001", // Frontend URL
+    origin: "http://localhost:3000", // Frontend URL
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
